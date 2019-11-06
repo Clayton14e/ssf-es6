@@ -14,10 +14,7 @@ fizzBuzz30 = () => {
         if(i % 5 == 0){
             result += 'buzz';
         }
-        else{
-            result = i;
-        }
-        console.log(result);
+        console.log(result || i);
     }
 }
 
