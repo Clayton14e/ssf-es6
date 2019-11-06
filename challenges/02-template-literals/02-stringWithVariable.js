@@ -3,7 +3,7 @@
 
 const stringWithVariable = _ => {
     const CITY = 'Defiance'; 
-    return 'Welcome to ' + CITY;
+    return `Welcome to ${CITY}`;
 };
 
 
@@ -12,7 +12,7 @@ const stringWithVariable = _ => {
 
 
 
-
+console.log(stringWithVariable());
 
 
 
